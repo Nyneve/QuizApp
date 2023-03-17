@@ -1,0 +1,126 @@
+body {
+ background-image: url('bg2.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ font-family: 'Poppins', sans-serif;
+ color: #ffffff;
+ height: 100vh;
+ width: 100vw;
+ overflow: hidden;
+ margin: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.box {
+ background: rgba(0, 0, 0, 0.5);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(2.3px);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ color: #ffffff;
+ border: 1px solid #ffd3a0;
+ border-radius: 25%;
+ height: 60vh;
+ width: 35vw;
+ overflow: hidden;
+ margin: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ flex-direction: column;
+}
+
+.inhalt {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+h2 {
+ font-size: 2em;
+ text-shadow: 5px 5px 5px #000;
+}
+
+.answers {
+ height: 100px;
+ width: 250px;
+ background-color: #1e1c2e;
+ border: 1px solid #ffffff;
+ border-radius: 10px;
+ margin: 10px;
+ padding: 5px;
+ box-shadow: #000000 10px 5px 5px;
+ font-size: 1em;
+ color: white;
+ transition: 300ms;
+}
+
+.answers:hover {
+ background-color: #ffffff;
+ border: 1px solid #1e1c2e;
+ color: #000;
+ cursor: pointer;
+ transform: scale(1.1);
+}
+
+.again {
+ height: 70px;
+ width: 250px;
+ background-color: #1e1c2e;
+ border: 1px solid #ffffff;
+ border-radius: 10px;
+ margin: 10px;
+ padding: 5px;
+ box-shadow: #000000 10px 5px 5px;
+ font-size: 1.2em;
+ color: white;
+ transition: 300ms;
+}
+
+.again:hover {
+ background-color: #ffffff;
+ border: 1px solid #1e1c2e;
+ color: #000;
+ cursor: pointer;
+ transform: scale(1.1);
+}
+
+.hint {
+ padding: 5px;
+ text-align: center;
+ background: rgba(0, 0, 0, 0.5);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(2.3px);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ width: 350px;
+ margin: 20px;
+}
+
+.hintButton {
+ margin: 10px;
+ padding: 5px;
+ background: rgba(0, 0, 0, 0);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ color:#ffffff;
+ border-radius: 10px;
+ width: 50px;
+}
+
+.hintButton:hover {
+ background: rgba(0, 0, 0, 0.5);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ color:#fff;
+}
